@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowDownLeft, ArrowDownRight, ArrowLeft, ArrowRight, Bell, CalendarDays, Check, ChevronDown, CircleHelp, CreditCard, Download, Gift, Globe2, LayoutDashboard, LogOut, MoreHorizontal, Plus, Search, Settings, ShieldCheck, Sparkles, Users, Utensils, Wallet, QrCode, TrendingUp, Building2, Activity, SlidersHorizontal, Menu, X } from "lucide-react";
+import { ArrowDownLeft, ArrowDownRight, ArrowLeft, ArrowRight, Bell, CalendarDays, Check, ChevronDown, CircleHelp, CreditCard, Download, Gift, Gem, Globe2, LayoutDashboard, LogOut, MoreHorizontal, Plus, Search, Settings, ShieldCheck, Sparkles, Users, Utensils, Wallet, QrCode, TrendingUp, Building2, Activity, SlidersHorizontal, Menu, X } from "lucide-react";
 
 type Locale = "en" | "fr" | "ar";
 type Portal = "guest" | "restaurant" | "platform";
