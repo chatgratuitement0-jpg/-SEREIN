@@ -178,10 +178,10 @@ export default function MarketingPage({ locale }: { locale: Locale }) {
         <div className="dashboard-preview">
           <div className="preview-header"><div><span className="preview-dot" /> <span>OVERVIEW</span></div><span>DEMO VIEW</span></div>
           <div className="preview-title">Guest relationships <span>↗</span></div>
-          <div className="preview-metrics"><div><small>Returning guests</small><strong>—</strong><span>Live data not connected</span></div><div><small>Active members</small><strong>—</strong><span>Illustrative preview</span></div></div>
+          <div className="preview-metrics"><div><small>Returning guests</small><strong>68.2%</strong><span>Illustrative demo data</span></div><div><small>Active members</small><strong>1,284</strong><span>Sample workspace</span></div></div>
           <div className="chart-title">Guest activity <span>Last 7 days</span></div>
           <div className="chart-bars">{[38,58,45,74,52,87,65,95,61,77,49,82,68,90].map((h,i)=><span key={i} style={{height:`${h}%`}} />)}</div>
-          <div className="preview-foot"><ShieldCheck size={15} /> {t.privacy}</div>
+          <div className="preview-foot"><ShieldCheck size={15} /> {t.privacy}<span className="preview-disclaimer">Illustrative data · No live account connected</span></div>
         </div>
       </section>
 
