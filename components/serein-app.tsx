@@ -9,7 +9,7 @@ type Portal = "guest" | "restaurant" | "platform";
 const words = {
   en: {
     guest:"Guest membership", restaurant:"Restaurant studio", platform:"SEREIN console",
-    overview:"Overview", members:"Guests & members", rewards:"Rewards", campaigns:"Campaigns", insights:"Insights", settings:"Settings",
+    overview:"Overview", members:"Guests & members", rewards:"Rewards", campaigns:"Campaigns", insights:"Insights", settings:"Settings", activity:"Activity",
     venues:"Restaurants", subscriptions:"Subscriptions", team:"Team & access", audit:"Activity log",
     hello:"Good morning", welcome:"A considered view of your guest relationships.", memberWelcome:"Welcome back, Amira.",
     points:"Available points", tier:"Membership level", visits:"Visits this year", next:"Next privilege",
@@ -35,7 +35,7 @@ const words = {
   },
   fr: {
     guest:"Espace convive", restaurant:"Espace restaurant", platform:"Console SEREIN",
-    overview:"Vue d’ensemble", members:"Convives & membres", rewards:"Privilèges", campaigns:"Campagnes", insights:"Analyses", settings:"Paramètres",
+    overview:"Vue d’ensemble", members:"Convives & membres", rewards:"Privilèges", campaigns:"Campagnes", insights:"Analyses", settings:"Paramètres", activity:"Activité",
     venues:"Restaurants", subscriptions:"Abonnements", team:"Équipe & accès", audit:"Journal d’activité",
     hello:"Bonjour", welcome:"Une vision claire de vos relations avec vos convives.", memberWelcome:"Bienvenue, Amira.",
     points:"Points disponibles", tier:"Niveau de membre", visits:"Visites cette année", next:"Prochain privilège",
@@ -61,7 +61,7 @@ const words = {
   },
   ar: {
     guest:"عضوية الضيف", restaurant:"مساحة المطعم", platform:"لوحة SEREIN",
-    overview:"نظرة عامة", members:"الضيوف والأعضاء", rewards:"المكافآت", campaigns:"الحملات", insights:"التحليلات", settings:"الإعدادات",
+    overview:"نظرة عامة", members:"الضيوف والأعضاء", rewards:"المكافآت", campaigns:"الحملات", insights:"التحليلات", settings:"الإعدادات", activity:"النشاط",
     venues:"المطاعم", subscriptions:"الاشتراكات", team:"الفريق والصلاحيات", audit:"سجل النشاط",
     hello:"صباح الخير", welcome:"نظرة مدروسة على علاقتك بضيوف المطعم.", memberWelcome:"مرحبًا بك، أميرة.",
     points:"النقاط المتاحة", tier:"مستوى العضوية", visits:"زيارات هذا العام", next:"الامتياز التالي",
