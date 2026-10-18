@@ -149,7 +149,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .workspace-switch>svg{color:#AEB9AC}
 .side-nav{display:grid;gap:4px;margin-top:27px}
 .nav-caption{font-size:8px;letter-spacing:.15em;color:#A2B09F;padding:0 9px 9px}
-.side-link{display:flex;align-items:center;gap:11px;width:100%;border:1px solid transparent;background:transparent;color:#D0D8CD;padding:11px 10px;text-align:left;border-radius:0;font-size:11px;transition:background .15s,color .15s}
+.side-link{position:relative;display:flex;align-items:center;gap:11px;width:100%;border:1px solid transparent;background:transparent;color:#D0D8CD;padding:11px 10px;text-align:left;border-radius:0;font-size:11px;transition:background .15s,color .15s}
 .side-link svg{flex-shrink:0}
 .side-link:hover{background:#2C4234;color:#FFFDF8}
 .side-link.active{background:#F1EEE4;border-color:#F1EEE4;color:var(--forest);font-weight:700}
