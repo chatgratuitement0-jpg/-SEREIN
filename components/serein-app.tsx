@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowDownLeft, ArrowDownRight, ArrowLeft, ArrowRight, Bell, CalendarDays, Check, ChevronDown, CircleHelp, CreditCard, Download, Gift, Globe2, LayoutDashboard, LogOut, MoreHorizontal, Plus, Search, Settings, ShieldCheck, Sparkles, Users, Utensils, Wallet, QrCode, TrendingUp, Building2, Activity, SlidersHorizontal, Menu, X } from "lucide-react";
 
 type Locale = "en" | "fr" | "ar";
@@ -103,6 +103,7 @@ function switchLocale(locale: Locale) {
 export default function SereinApp({ locale, portal }: { locale: Locale; portal: Portal }) {
   const t = words[locale];
   const rtl = locale === "ar";
+  useEffect(() => { document.documentElement.lang = locale; document.documentElement.dir = rtl ? "rtl" : "ltr"; }, [locale, rtl]);
   const [active, setActive] = useState("overview");
   const [query, setQuery] = useState("");
   const [toast, setToast] = useState("");

@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowDownRight, ArrowUpRight, ArrowUpRight as ExternalArrow, ArrowRight, Menu, ScanLine, ShieldCheck, Sparkles, ChartNoAxesCombined, Gem } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type Locale = "en" | "fr" | "ar";
 
@@ -99,6 +99,7 @@ export default function MarketingPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
   const rtl = locale === "ar";
   const [menuOpen, setMenuOpen] = useState(false);
+  useEffect(() => { document.documentElement.lang = locale; document.documentElement.dir = rtl ? "rtl" : "ltr"; }, [locale, rtl]);
 
   return (
     <main className={rtl ? "marketing rtl" : "marketing"} dir={rtl ? "rtl" : "ltr"} lang={locale}>
